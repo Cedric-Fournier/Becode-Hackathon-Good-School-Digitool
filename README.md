@@ -26,3 +26,4 @@ GoodPlanet possèdant une base de données d'actions à accomplir pour réduire 
 ## Maquette du projet :
 ## UML :
 ## Project Board : 
+[KANBAN](https://github.com/Cedric-Fournier/Becode-Hackathon-Hack-In-The-Woods-2018/projects/1)
