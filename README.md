@@ -1,4 +1,4 @@
-# Becode-Hackathon-Hack-In-The-Wood-2018
+# Good School Digitool
 - **Client** : [GoodPlanet Belgium](http://www.goodplanet.be/fr/index.php)
 - **Contact** : Clément Magos, c.magos@goodplanet.be, +32470100665
 - **Where ?** : [Hack in th woods](http://www.hackinthewoods.be/)
