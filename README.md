@@ -37,7 +37,7 @@ Il y a 2 types de récompenses:
 
 ## Maquette du projet :
 
-[IMG_20180803_163947.jpg]
+![IMG_20180803_163947.jpg]
 ## UML :
 ## Project Board : 
 [KANBAN](https://github.com/Cedric-Fournier/Becode-Hackathon-Hack-In-The-Woods-2018/projects/1)
