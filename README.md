@@ -17,3 +17,12 @@ Let  your  creative  and  smart  programming  minds  go  wild  in  finding  orig
 
 ## Cahier des charges : 
 [HERE](cdc.docx)
+
+## Notre solution : 
+
+Nous proposons a GoodPlanet une solution pour les aider à sensibiliser les élèves a la consommation d’eau, d’électricité et à la gestion des déchets.
+GoodPlanet possèdant une base de données d'actions à accomplir pour réduire l'impact écologique des écoles, nous allons développer un jeu de gestion se basant sur celle-ci. 
+
+## Maquette du projet :
+## UML :
+## Project Board : 
