@@ -20,7 +20,7 @@ Let  your  creative  and  smart  programming  minds  go  wild  in  finding  orig
 
 ## Notre solution : 
 
-Nous proposons a GoodPlanet une solution pour les aider à sensibiliser les élèves a la consommation d’eau, d’électricité et à la gestion des déchets.
+Nous proposons a GoodPlanet une solution pour les aider à sensibiliser les élèves a la consommation d’eau, d’énergie et à la gestion des déchets.
 GoodPlanet possèdant une base de données d'actions à accomplir pour réduire l'impact écologique des écoles, nous allons développer un jeu de gestion se basant sur celle-ci. 
 
 ## Maquette du projet :
