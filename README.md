@@ -7,8 +7,8 @@
 - [Cédric Fournier](https://github.com/Cedric-Fournier) : Project Manager
 - [Adrien d'Oreye](https://github.com/adridor) : Communication Manager 
 - [Guillaume Kreit](https://github.com/Guillaume-Kreit) : Communication Manager
-- [Jesse Fumba](https://github.com/JFumba) : Back-end Manager 
-- [Marie Cambie](https://github.com/MCambie) : Front-end Manager 
+- [Jesse Fumba](https://github.com/JFumba) : Team Manager
+- [Marie Cambie](https://github.com/MCambie) : Team Manager
 - **The Website** : 
 
 ## Demande client : 
