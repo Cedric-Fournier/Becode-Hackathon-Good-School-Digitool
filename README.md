@@ -36,8 +36,9 @@ Il y a 2 types de récompenses:
  
 
 ## Maquette du projet :
+[HERE](https://share.proto.io/3KDT5J/)
 
-![maquette](IMG_20180803_163947.jpg)
+//mettre ici les printscreen après 15 jours
 ## UML :
 ![UML](UML.png)
 ## Project Board : 
