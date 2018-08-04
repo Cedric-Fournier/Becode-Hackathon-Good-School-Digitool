@@ -19,11 +19,26 @@ Let  your  creative  and  smart  programming  minds  go  wild  in  finding  orig
 [HERE](cdc.docx)
 
 ## Notre solution : 
+Good School Digitool
 
-Nous proposons a GoodPlanet une solution pour les aider à sensibiliser les élèves a la consommation d’eau, d’énergie et à la gestion des déchets.
-GoodPlanet possèdant une base de données d'actions à accomplir pour réduire l'impact écologique des écoles, nous allons développer un jeu de gestion se basant sur celle-ci. 
+Nous proposons a GoodPlanet une solution pour les aider à sensibiliser les élèves a la consommation d’eau, d’énergie et à la gestion des déchets : 
+GoodPlanet possèdant une base de données d'actions à accomplir pour réduire l'impact écologique des écoles, nous allons développer un jeu de gestion se basant sur celle-ci.
+
+Aléatoirement, des éléments apparaitront sur l’interface, ces éléments correspondent à 3 catégories (eau, énergie et déchets) auxquelles ils rapportent un point.
+
+Grâce à ces points, les élèves peuvent débloquer une action qu’il est possible de reproduire au quotidien.
+
+Pour inciter les élèves à s’intéresser au jeu, un système de récompense a été mis en place.
+
+Il y a 2 types de récompenses: 
+1. à partir d’un certain nombre d’action, l’élève pourra personnaliser une partie de l'interface. 
+2. à partir d’un nombre plus important d’action débloquées, Goodplanet enverra des goodies pour récompenser l’école.
+ 
 
 ## Maquette du projet :
+
+![maquette](IMG_20180803_163947.jpg)
 ## UML :
+![UML](UML.png)
 ## Project Board : 
 [KANBAN](https://github.com/Cedric-Fournier/Becode-Hackathon-Hack-In-The-Woods-2018/projects/1)

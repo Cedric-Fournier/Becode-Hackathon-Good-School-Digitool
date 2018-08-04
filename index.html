@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Good School Digitool</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <link rel="stylesheet" href="/css/master.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Good School Digitool</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="row">
+        <div class="col-sm-2 col-md-2 col-lg-2 text-center">
+          <a href="Assets/images/template-energy" target="_blank"> <img src="Assets/images/icons/lightning-electric-energy.svg" alt="energy" class="ressources" > </a>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2 text-center">
+          <a href="Assets/images/template-water.png" target="_blank"> <img src="Assets/images/icons/bathroom-faucet-tool.svg" alt="water" class="ressources"> </a>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2 text-center">
+          <a href="Assets/images/template-garbage" target="_blank">  <img src="Assets/images/icons/recycling-bin-with-wheels.svg" alt="recycling" class="ressources"> </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 text-right">
+          <img src="Assets/images/logogoodplanet.png" alt="Logo Good Planet" class="logogoodplanet">
+        </div>
+      </div>
+      <div class="footer">
+
+      </div>
+
+    </div>
+
+
 
     <div class="container">
 
@@ -16,128 +41,96 @@
       <div class="footer">
 
         <!-- Action for Modals -->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-warning text-white d-block w-100 disabled" data-toggle="modal" data-target="#action1">
-                    Action 1
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4">
+            <button id="clicktypeEnergie" type="button" class="btn btn-warning text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionEnergie">
+                    Energie
                   </button>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-primary text-white d-block w-100 disabled" data-toggle="modal" data-target="#action2">
-                    Action 2
-                  </button>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-dark text-white d-block w-100 disabled" data-toggle="modal" data-target="#action3">
-                    Action 3
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-dark text-white d-block w-100 disabled" data-toggle="modal" data-target="#action4">
-                    Action 4
-                  </button>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-warning text-white d-block w-100 disabled" data-toggle="modal" data-target="#action5">
-                    Action 5
-                  </button>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-warning text-white d-block w-100 disabled" data-toggle="modal" data-target="#action6">
-                    Action 6
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-primary text-white d-block w-100 disabled" data-toggle="modal" data-target="#action7">
-                    Action 7
-                  </button>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-dark text-white d-block w-100 disabled" data-toggle="modal" data-target="#action8">
-                    Action 8
-                  </button>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4">
-                  <button type="button" class="btn btn-primary text-white d-block w-100 disabled" data-toggle="modal" data-target="#action9">
-                    Action 9
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="col-12 col-sm-4 col-md-4">
+            <button id="clicktypeEau" type="button" class="btn btn-primary text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionEau">
+                    Eau
+                  </button>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4">
+            <button id="clicktypeDechet" type="button" class="btn btn-dark text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionDechet">
+                    Déchets
+                  </button>
+          </div>
         </div>
-
       </div>
 
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="action1" tabindex="-1" role="dialog" aria-labelledby="actionTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="actionTitle">Action 1</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  </div>
+
+  <!-- Modal Eau -->
+  <div class="modal fade" id="actionEau" tabindex="-1" role="dialog" aria-labelledby="actionTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title actionTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
-          <div class="modal-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-body doAction">
+          ceci est le contenu du modal
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-
-    <div class="modal script1" id="myModal1">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title" id="jumbomod1">Batman</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <!-- Modal body -->
-          <div class="modal-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <div id="jumbomod3">
-            </div>
-            <button type="button" class="genbutton modalbtn position-absolute" data-dismiss="modal">Close</button>
-          </div>
+  <!-- Modal Energie -->
+  <div class="modal fade" id="actionEnergie" tabindex="-1" role="dialog" aria-labelledby="actionTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title actionTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body doAction">
+          ceci est le contenu du modal energie
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Modal Dechets -->
+  <div class="modal fade" id="actionDechet" tabindex="-1" role="dialog" aria-labelledby="actionTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title actionTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body doAction">
+          ceci est le contenu du modal dechets
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./Function/main.js"></script>
-    <script src="./Function/randomizerItems.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="Assets/library/phaser.min.js"></script>
+  <script src="./Function/main.js"></script>
+  <script src="Function/game.js"></script>
+</body>
+
 </html>
