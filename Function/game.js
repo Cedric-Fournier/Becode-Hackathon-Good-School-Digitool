@@ -1,14 +1,19 @@
 var game = new Phaser.Game(1000, 550, Phaser.AUTO, '');
 
+  var counter = {
+    Eau: 0,
+    Poubelle: 0,
+    Eclair: 0,
+  }
 game.state.add('play', {
   preload: function() {
     // background
-    this.game.load.image('school', 'assets/images/massimo-school.png');
+    this.game.load.image('school', './Assets/images/massimo-school.png');
     // ressources
-    this.game.load.image('drop', 'assets/icons/drop-mini.png');
-    this.game.load.image('splash', 'assets/icons/splash-mini.png');
-    this.game.load.image('garbage', 'assets/icons/garbage-mini.png');
-    this.game.load.image('lightning', 'assets/icons/lightning-mini.png');
+    this.game.load.image('drop', './Assets/images/icons/drop-mini.png');
+    this.game.load.image('splash', './Assets/images/icons/splash-mini.png');
+    this.game.load.image('garbage', './Assets/images/icons/garbage-mini.png');
+    this.game.load.image('lightning', './Assets/images/icons/lightning1-mini.png');
   },
 
   create: function() {
@@ -103,8 +108,11 @@ game.state.add('play', {
   // },
 
   onClickRessource: function(ressource) {
+
     // apply click damage to ressource
     ressource.damage(this.player.clickDmg);
+    counter[ressource.details.name]++;
+    console.log(counter);
   },
 
   fadePicture: function(ressource) {
