@@ -1,32 +1,18 @@
 /*  Header */
 
-.menu {
-  position: absolute;
-  width: 100%;
-  z-index: 999;
+.header {
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
+.ressources {
+  height: 50px;
+  width: auto;
 }
 
-.logo {
-  width: 150px;
-  height: auto;
-}
-
-.nav-item a {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding-left: 5px;
-}
-
-.nav-item a:hover {
-  background: green;
-  border-radius: .3rem;
-}
-
-.navbar.navbar-expand-lg.navbar-light.bg-light {
-  margin: 0;
+.logogoodplanet {
+  height: 50px;
+  width: auto;
 }
