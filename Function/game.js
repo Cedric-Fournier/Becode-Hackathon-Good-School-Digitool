@@ -30,13 +30,6 @@ game.state.add('play', {
 
     });
 
-
-
-
-
-    // var dropSprite = game.add.sprite(620, 100, 'drop');
-    // dropSprite.anchor.setTo(0.5, 0.5);
-
     var ressourceData = [
 
       {
