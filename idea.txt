@@ -1,5 +1,15 @@
-Ideas to complete the Good School digitool game:
+Ideas to improve the Good School digitool game:
 
-  1)login and register
-  2) add more actions to do
-  3) 
+  - Login and register
+  - Add more actions to do
+  - Add garbage Bin ass a boss with 10 health
+  - Add street lamp
+  - Turn street lamp on (and off on click)
+  - Add links to datas on header icons
+  - Add purchased actions counter by theme
+  - Add automatic email when enough actions have been bought
+  - Add sounds when items are clicked
+  - Visual change when action purchased
+  - Incrementation of the action price
+  - clickable logo to go to goodplanet website
+  - 
