@@ -41,13 +41,13 @@ Il y a 2 types de récompenses:
 ## Maquette du projet :
 La maquette est provisoirement (jusqu'au 17 août 2018) accessible [ici](https://share.proto.io/3KDT5J/).
 Quelques captures d'écran:
-![maquette1](maquette_printscreen/1 - Screen 1.png)
+![maquette1](maquette_printscreen/screen1.png)
 
-![maquette2](maquette_printscreen/2 - Screen 11.png)
+![maquette2](maquette_printscreen/screen2.png)
 
-![maquette3](maquette_printscreen/3 - Screen 7.png)
+![maquette3](maquette_printscreen/screen3.png)
 
-![maquette4](maquette_printscreen/4 - Screen 3.png)
+![maquette4](maquette_printscreen/screen4.png)
 
 ## UML :
 ![UML](maquette_printscreen/UML.png)
