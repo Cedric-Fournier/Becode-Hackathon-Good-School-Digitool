@@ -112,14 +112,15 @@ game.state.add('play', {
     // apply click damage to ressource
     ressource.damage(this.player.clickDmg);
     counter[ressource.details.name]++;
+    //compteur de ressources en array
     var compEau = Object.entries(counter)[0][1];
     var compPoubelle = Object.entries(counter)[1][1];
     var compEnergie = Object.entries(counter)[2][1];
-    // console.log(Object.entries(counter)[0][1]);
-    console.log(compEnergie);
+    // affichage compteur sur html
     $('#lightning').html(compEnergie);
     $('#water').html(compEau);
     $('#garbage').html(compPoubelle);
+    // si compteur == 10 --> débloque boutton action
     if (compEau == 10) {
       $('#clicktypeEau').removeAttr('disabled');
     };
