@@ -1,6 +1,9 @@
 # Good School Digitool
 - **Client** : [GoodPlanet Belgium](http://www.goodplanet.be/fr/index.php)
-- **Contact** : Clément Magos, c.magos@goodplanet.be, +32470100665
+- **Contact** : Simon Reijniers - Projectmanager
++32 (0)474 98 04 62
+s.reijniers@goodplanet.be
+
 - **Where ?** : [Hack in th woods](http://www.hackinthewoods.be/)
 - **When ?** :  02/08 - 05/08/2018
 - **By who ?** : 
