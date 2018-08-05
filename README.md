@@ -16,7 +16,7 @@ With  GoodPlanet  we  are  a  sustainable  educative  organisation  and  reach  
 Let  your  creative  and  smart  programming  minds  go  wild  in  finding  original,  creative  visual  ways  of  getting  the  message  to  the  children!       
 
 ## Cahier des charges : 
-[HERE](cdc.docx)
+Pour le consulter,cliquez [ici](cdc.docx)
 
 ## Notre solution : 
 Good School Digitool
@@ -36,7 +36,9 @@ Il y a 2 types de récompenses:
  
 
 ## Maquette du projet :
-[HERE](https://share.proto.io/3KDT5J/)
+La maquette est provisoirement accessible [ici](https://share.proto.io/3KDT5J/).
+Quelques captures d'écran:
+
 
 <!-- texte en commentaire mettre ici les printscreen après 15 jours -->
 ## UML :
