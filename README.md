@@ -41,10 +41,23 @@ Il y a 2 types de récompenses:
 ## Maquette du projet :
 La maquette est provisoirement (jusqu'au 17 août 2018) accessible [ici](https://share.proto.io/3KDT5J/).
 Quelques captures d'écran:
+![maquette1](maquette_printscreen/1 - Screen 1.png)
 
+![maquette2](maquette_printscreen/2 - Screen 11.png)
 
-<!-- texte en commentaire mettre ici les printscreen après 15 jours -->
+![maquette3](maquette_printscreen/3 - Screen 7.png)
+
+![maquette4](maquette_printscreen/4 - Screen 3.png)
+
 ## UML :
-![UML](UML.png)
+![UML](maquette_printscreen/UML.png)
+
+## Demo : 
+
+![Demo1](Demo-ScreenShot/demo1.png)
+
+![Demo2](Demo-ScreenShot/demo2.png)
+
+![Demo3](Demo-ScreenShot/demo3.png)
 ## Project Board : 
 [KANBAN](https://github.com/Cedric-Fournier/Becode-Hackathon-Hack-In-The-Woods-2018/projects/1)
