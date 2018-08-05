@@ -1,0 +1,64 @@
+# Credits
+
+Title:
+    2D RPG Enemy Set
+
+Author:
+    Various
+
+URL:
+    http://opengameart.org/content/2d-rpg-enemy-set
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
+
+Copyright/Attribution Notice:
+    Various people produced the sprites in this set. Please attribute to either "Hero of Allacrost - http://www.allacrost.org" or the individual artists listed below.
+
+- Brett Steele (Safir-Kreuz)
+- Joe Raucci (Sylon)
+- Vicki Beinhart (Namakoro)
+- Tyler Olsen (Roots)
+
+File(s):
+    * allacrost_enemy_sprites.zip
+
+----------------------------------------
+
+Title:
+    496 pixel art icons for medieval/fantasy RPG
+
+Author:
+    Henrique Lazarini (7Soul1)
+
+URL:
+    http://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * 496_RPG_icons.zip
+
+----------------------------------------
+
+Title:
+    Forest Background
+
+Author:
+    ansimuz
+
+URL:
+    http://opengameart.org/content/forest-background
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * parallax_forest_pack.zip
+
+----------------------------------------
+
+

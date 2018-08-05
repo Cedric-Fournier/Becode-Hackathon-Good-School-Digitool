@@ -1,0 +1,10 @@
+body {
+  background-image: url(assets/massimo-school.svg);
+}
+h1{
+text-align:center;
+}
+#content{
+margin:0 auto;
+width:800px;
+}
