@@ -1,6 +1,9 @@
 # Good School Digitool
 - **Client** : [GoodPlanet Belgium](http://www.goodplanet.be/fr/index.php)
-- **Contact** : Clément Magos, c.magos@goodplanet.be, +32470100665
+- **Contact** : Simon Reijniers - Projectmanager
++32 (0)474 98 04 62
+s.reijniers@goodplanet.be
+
 - **Where ?** : [Hack in th woods](http://www.hackinthewoods.be/)
 - **When ?** :  02/08 - 05/08/2018
 - **By who ?** : 
@@ -9,14 +12,14 @@
 - [Guillaume Kreit](https://github.com/Guillaume-Kreit) : Communication Manager
 - [Jesse Fumba](https://github.com/JFumba) : Team Manager
 - [Marie Cambie](https://github.com/MCambie) : Team Manager
-- **The Website** : 
+- **The Website** : https://cedric-fournier.github.io/Good-School-Digitool/
 
 ## Demande client : 
 With  GoodPlanet  we  are  a  sustainable  educative  organisation  and  reach  about  500  000  children  per  year.  We  are  building  an  online  tool  which  shows  real  data  about  energy,  water,  waste,  mobility  and  food  of  their  own  school-life  in  a  child-friendly  manner.  This  way  we  can  start  sustainable  education  in  workshops  with  real  data  which  will  increase  their  knowledge  and  level  of  interest  in  the  sustainable  topics  we  discuss.  The  school  will  also  use  them  on  their  own.  The  tool  will  be  used  in  hundreds  or  even  thousands  of  schools.  Energie-ID  is  our  partner  (https://www.energieid.be)  and  collects  and  stores  the  data.  What  we  propose  is  for  you  to  design  several  ways  of  converting  the  different  dry  data  sets  (litres  of  water  per  year,  kwh  of  electricity  per  month,  ...)  in  a  nice,  understandable,  simple,  playful,  interactive  way  and  to  introduce  a  level  of  gamification  in  the  data  presentation.  
 Let  your  creative  and  smart  programming  minds  go  wild  in  finding  original,  creative  visual  ways  of  getting  the  message  to  the  children!       
 
 ## Cahier des charges : 
-[HERE](cdc.docx)
+Pour le consulter,cliquez [ici](cdc.docx)
 
 ## Notre solution : 
 Good School Digitool
@@ -36,9 +39,25 @@ Il y a 2 types de récompenses:
  
 
 ## Maquette du projet :
+La maquette est provisoirement (jusqu'au 17 août 2018) accessible [ici](https://share.proto.io/3KDT5J/).
+Quelques captures d'écran:
+![maquette1](maquette_printscreen/1 - Screen 1.png)
 
-![maquette](IMG_20180803_163947.jpg)
+![maquette2](maquette_printscreen/2 - Screen 11.png)
+
+![maquette3](maquette_printscreen/3 - Screen 7.png)
+
+![maquette4](maquette_printscreen/4 - Screen 3.png)
+
 ## UML :
-![UML](UML.png)
+![UML](maquette_printscreen/UML.png)
+
+## Demo : 
+
+![Demo1](Demo-ScreenShots/demo1.png)
+
+![Demo2](Demo-ScreenShots/demo2.png)
+
+![Demo3](Demo-ScreenShots/demo3.png)
 ## Project Board : 
 [KANBAN](https://github.com/Cedric-Fournier/Becode-Hackathon-Hack-In-The-Woods-2018/projects/1)
