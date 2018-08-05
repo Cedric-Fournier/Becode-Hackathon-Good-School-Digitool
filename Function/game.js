@@ -15,7 +15,9 @@ game.state.add('play', {
     this.game.load.image('lightning', './Assets/images/icons/lightning1-mini.png');
     // special ressources
     this.game.load.image('splash', './Assets/images/icons/splash-mini.png');
-    this.game.load.image('container', './Assets/images/icons/recycling-bin.svg');
+    this.game.load.image('container', './Assets/images/icons/recycling-bin-mini.png');
+    this.game.load.image('lightOn', './Assets/images/icons/street-light-on-mini.png');
+    this.game.load.image('lightOff', './Assets/images/icons/street-light-off-mini.png');
   },
 
   create: function() {
@@ -29,6 +31,15 @@ game.state.add('play', {
       var bg = state.game.add.tileSprite(0, 0, state.game.world.width,
         state.game.world.height, image, '', state.background);
     });
+
+
+    var binSprite = this.game.add.sprite(350, 270, 'container');
+    var lightOnSprite = this.game.add.sprite(400, 270, 'lightOn');
+    var lightOffSprite = this.game.add.sprite(400, 150, 'lightOff');
+    var lightOffSprite = this.game.add.sprite(500, 430, 'lightOff');
+
+
+
 
     var ressourceData = [{
         name: 'Eau',
@@ -53,17 +64,12 @@ game.state.add('play', {
         image: 'lightning',
         genre: 'energyPoint',
         maxHealth: 1
-      },
-      {
-        name: 'ContainerGarbage',
-        image: 'container',
-        genre: 'garbagePoint',
-        maxHealth: 10
       }
     ];
 
     this.ressources = this.game.add.group();
     var ressource;
+
 
     ressourceData.forEach(function(data) {
       for (var i = 0; i < 5; i++) {
@@ -82,6 +88,7 @@ game.state.add('play', {
         ressource.events.onKilled.add(state.onKilledRessource, state);
       }
     });
+
 
     for (var i = 0; i < 9; i++) {
       this.spawnResource();
