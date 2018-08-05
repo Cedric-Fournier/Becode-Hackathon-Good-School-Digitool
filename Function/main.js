@@ -2,9 +2,7 @@
   //modal Eau
   $(document).on("click", "#clicktypeEau", function() {
     $.getJSON("../Assets/JSON/action.json", function(data) {
-      console.log('test');
       let rand = Math.floor(Math.random() * 3) + 1;
-      console.log(rand);
       var action = data[1].action[rand];
       $('.actionTitle').html('Eau');
       $('.doAction').html('<p> ' + action + ' </p>');
