@@ -54,10 +54,10 @@ Quelques captures d'écran:
 
 ## Demo : 
 
-![Demo1](Demo-ScreenShot/demo1.png)
+![Demo1](Demo-ScreenShots/demo1.png)
 
-![Demo2](Demo-ScreenShot/demo2.png)
+![Demo2](Demo-ScreenShots/demo2.png)
 
-![Demo3](Demo-ScreenShot/demo3.png)
+![Demo3](Demo-ScreenShots/demo3.png)
 ## Project Board : 
 [KANBAN](https://github.com/Cedric-Fournier/Becode-Hackathon-Hack-In-The-Woods-2018/projects/1)
