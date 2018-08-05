@@ -36,7 +36,7 @@ Il y a 2 types de récompenses:
  
 
 ## Maquette du projet :
-La maquette est provisoirement accessible [ici](https://share.proto.io/3KDT5J/).
+La maquette est provisoirement(jusqu'au 17 aôut 2018) accessible [ici](https://share.proto.io/3KDT5J/).
 Quelques captures d'écran:
 
 
