@@ -15,12 +15,15 @@
       <div class="row">
         <div class="col-sm-2 col-md-2 col-lg-2 text-center">
           <a href="Assets/images/template-energy" target="_blank"> <img src="Assets/images/icons/lightning-electric-energy.svg" alt="energy" class="ressources" > </a>
+          <span id="lightning" class="whiteFrame">0</span>
         </div>
         <div class="col-sm-2 col-md-2 col-lg-2 text-center">
           <a href="Assets/images/template-water.png" target="_blank"> <img src="Assets/images/icons/bathroom-faucet-tool.svg" alt="water" class="ressources"> </a>
+          <span id="water" class="whiteFrame">0</span>
         </div>
         <div class="col-sm-2 col-md-2 col-lg-2 text-center">
           <a href="Assets/images/template-garbage" target="_blank">  <img src="Assets/images/icons/recycling-bin-with-wheels.svg" alt="recycling" class="ressources"> </a>
+          <span id="garbage" class="whiteFrame">0</span>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-6 text-right">
           <img src="Assets/images/logogoodplanet.png" alt="Logo Good Planet" class="logogoodplanet">
@@ -43,20 +46,21 @@
         <!-- Action for Modals -->
         <div class="row">
           <div class="col-12 col-sm-4 col-md-4">
-            <button id="clicktypeEnergie" type="button" class="btn btn-warning text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionEnergie">
+            <button id="clicktypeEnergie" disabled type="button" class="btn btn-warning text-white d-block w-100 disabled eteint" data-toggle="modal" data-target="#actionEnergie">
                     Energie
                   </button>
           </div>
           <div class="col-12 col-sm-4 col-md-4">
-            <button id="clicktypeEau" type="button" class="btn btn-primary text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionEau">
+            <button id="clicktypeEau" disabled type="button" class="btn btn-primary text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionEau">
                     Eau
                   </button>
           </div>
           <div class="col-12 col-sm-4 col-md-4">
-            <button id="clicktypeDechet" type="button" class="btn btn-dark text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionDechet">
+            <button id="clicktypeDechet" disabled type="button" class="btn btn-dark text-white d-block w-100 disabled" data-toggle="modal" data-target="#actionDechet">
                     Déchets
                   </button>
           </div>
+          <button id="testBtn" type="button" name="button"></button>
         </div>
       </div>
 

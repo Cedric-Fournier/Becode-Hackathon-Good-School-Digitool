@@ -29,3 +29,9 @@
       $('.doAction').html('<p>' + action + ' </p>');
     });
   });
+
+
+// débloquer action
+$('#testBtn').on("click", function(){
+  $('#clicktypeEau').removeAttr('disabled');
+})

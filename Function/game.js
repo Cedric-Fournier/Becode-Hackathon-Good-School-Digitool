@@ -34,11 +34,11 @@ game.state.add('play', {
         image: 'drop',
         maxHealth: 1
       },
-      {
-        name: 'Flaque',
-        image: 'splash',
-        maxHealth: 2
-      },
+      // {
+      //   name: 'Flaque',
+      //   image: 'splash',
+      //   maxHealth: 2
+      // },
       {
         name: 'Poubelle',
         image: 'garbage',
@@ -112,8 +112,25 @@ game.state.add('play', {
     // apply click damage to ressource
     ressource.damage(this.player.clickDmg);
     counter[ressource.details.name]++;
-    console.log(counter);
+    var compEau = Object.entries(counter)[0][1];
+    var compPoubelle = Object.entries(counter)[1][1];
+    var compEnergie = Object.entries(counter)[2][1];
+    // console.log(Object.entries(counter)[0][1]);
+    console.log(compEnergie);
+    $('#lightning').html(compEnergie);
+    $('#water').html(compEau);
+    $('#garbage').html(compPoubelle);
+    if (compEau == 10) {
+      $('#clicktypeEau').removeAttr('disabled');
+    };
+    if (compEnergie== 10) {
+      $('#clicktypeEnergie').removeAttr('disabled');
+    };
+    if (compPoubelle== 10) {
+      $('#clicktypeDechet').removeAttr('disabled');
+    };
   },
+
 
   fadePicture: function(ressource) {
     if (ressource.health > 0) {
