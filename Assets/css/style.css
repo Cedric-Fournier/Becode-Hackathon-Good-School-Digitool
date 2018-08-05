@@ -23,7 +23,7 @@
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  
+
 }
 
 .header {
@@ -41,4 +41,17 @@
 .logogoodplanet {
   height: 50px;
   width: auto;
+}
+
+.whiteFrame{
+  height: 50px;
+  width: 30px;
+  background-color: white;
+  font-size: 30px;
+}
+#bin{
+  position: absolute;
+  right: 450px;
+  top: 380px;
+  max-height: 40px;
 }
