@@ -1,0 +1,5 @@
+Ideas to complete the Good School digitool game:
+
+  1)login and register
+  2) add more actions to do
+  3) 

@@ -14,6 +14,7 @@ game.state.add('play', {
     this.game.load.image('splash', './Assets/images/icons/splash-mini.png');
     this.game.load.image('garbage', './Assets/images/icons/garbage-mini.png');
     this.game.load.image('lightning', './Assets/images/icons/lightning1-mini.png');
+    this.game.load.image('boss', './Assets/images/icons/recycling-bin.svg');
   },
 
   create: function() {
@@ -48,6 +49,11 @@ game.state.add('play', {
         name: 'Eclair',
         image: 'lightning',
         maxHealth: 1
+      },
+      {
+        name:'BossGarbage',
+        image:'boss',
+        maxHealth: 20
       }
     ];
 

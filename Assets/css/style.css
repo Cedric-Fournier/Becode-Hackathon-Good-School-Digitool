@@ -49,3 +49,9 @@
   background-color: white;
   font-size: 30px;
 }
+#bin{
+  position: absolute;
+  right: 150px;
+  top: 400px;
+  max-height: 40px;
+}
