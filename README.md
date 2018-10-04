@@ -19,7 +19,7 @@ GoodPlanet est  une organisation éducative durable et touche environ 500 000 en
 Nous construisons un outil en ligne qui présente des données réelles sur l'énergie, l'eau, les déchets, la mobilité et la nourriture de leur propre vie scolaire d'une manière adaptée aux enfants. De cette façon, nous pouvons commencer une éducation durable dans des ateliers avec de vraies données, ce qui augmentera leurs connaissances et leur intérêt pour les sujets durables dont nous discutons. L'école les utilisera également par leurs propres moyens. L'outil sera utilisé dans des centaines voire des milliers d'écoles. 
 Energie-ID, notre partenaire (https://www.energieid.be), collecte et stocke les données. 
 Ce que nous vous proposons, c’est de concevoir plusieurs façons de convertir les différents ensembles de données bruts (litres d’eau par an, kWh d’électricité par mois,…) de manière agréable, compréhensible, simple, ludique et interactive, avec des  niveaux de gamification dans la présentation des données.
-Laissez libre cours à votre esprit de programmation créatif et intelligent en trouvant des moyens visuels originaux et créatifs pour faire passer le message aux enfants!     
+Laissez libre cours à votre esprit de programmation créatif et intelligent en trouvant des moyens visuels originaux et créatifs pour faire passer le message aux enfants!       
 
 ## Cahier des charges : 
 Pour le consulter,cliquez [ici](cdc.docx)
